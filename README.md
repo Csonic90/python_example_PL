@@ -1,20 +1,20 @@
-#Zadania z programowania Python 
+# Zadania z programowania Python 
 
-###Lista 1
+### Lista 1
 Zmienne, typy, print, input, if
-###Lista 2
+### Lista 2
 Pętle
-###Lista 3
+### Lista 3
 Pętle II
-###Lista 4
+### Lista 4
 Listy
-###lista 5 
+### lista 5 
 Listy II
-###lista 6 
+### lista 6 
 funkcje - działadnie na parametrach
-###lista 7 
+### lista 7 
 Pliki
-###lista 8  
+### lista 8  
 N-tki i Słowniki
-###lista 9 
+### lista 9 
 Tabele wielowymiarowe, macierze
