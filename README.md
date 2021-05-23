@@ -19,45 +19,57 @@
 Wyświetl te zmienne za pomocą polecenia print.
 Wyświetl a + b, a + c, a + d i podobnie z ∗ i / zamiast +.
 Zinterpretuj wyniki.
+
 (2) Wprowdź do 2 zmiennych s i t wartości:
 ’kot’ oraz ” i pies”
 Wyświetl te zmienne (uwaga: w Pythonie nie ma różnicy między pojedynczym a podwójnym cudzysłowiem).
 Wyświetl: s + t, t + s + t oraz 2 ∗ s i zinterpretuj wyniki.
+
 (3) Polecenie input służy do wprowadzania danych z klawiatury.
 Stosując składnię typu:
 i=input(’Podaj i’)
 wprowadź dwie zmienne i oraz j.
 Wyświetl i, j oraz i + j. Jak należy zinterpretować wynik?
 (wsk. spróbuj wprowadzać różne wartości do i oraz j).
+
 (4) Konwersja w Pythonie pozwala na przekszatałcanie typów (np. zmiennoprzycinkowy 3.14 na całkowity 3, albo alfanumeryczny ’3.14’).
 Podstawowe funkcje to int(), float() oraz str(). Powtórz zadanie (3) stosując składnię typu: i=int(input(’Podaj i’))
 Jak teraz zinterpretować wyniki?
+
 (5) Napisz program w którym użytkownik wprowadza 2 liczby całkowite.
 Przetestuj na tych liczbach operator % (np. a%b lub i%j) dla pary wprowadzanych liczb. Spróbuj odgadnąć znaczenie tego operatora.
 (wsk. przetestuj kilka przypadków z drugą liczbą równą 2, potem równą 3..)
 Przetestuj w podobny sposób operator // tak aby odgadnąć jego znaczenie.
+
 (6) Napisz program w którym użytkownik wprowadza 3 liczby całkowite.
 Następnie, za pomocą polecenia if mają być wyświetlone tylko te z 3 liczb
 które są większe od 10. Przetestuj parę razy.
+
 (7) Napisz program w którym użytkownik wprowadza liczbę całkowitą po
 czym, za pomocą if, else, ma być wyświetlone czy liczba jest parzysta czy
 nieparzyta. Uwaga! Dwie wartości porównujemy za pomocą ==, np. if x==5
 (wsk. dla parzystości: zadanie (5))
+
 (8) Rok R jest przestępny jeśli jest podzielny przez 4 z wyjątkiem gdy jest
 podzielny przez 100 (wtedy nie jest przestępny), chyba że jest podzielny
 przez 400 (wtedy jest przestępny).
 Stosując if, elif, else napisz program w którym użytkownik wprowadza rok
 i jest wyświetlone czy jest przestępny czy nie.
 Przetestuj np. dla: 1900, 1904, 1905, 1600.
+
+
 (9) Użytkownik wprowadza liczbę zmiennoprzecinkową f (np. f = 93.7415).
 Stosując operator % wyświetl cyfry zaraz przed przecinkiem i zaraz po (w
 przyładzie: 3 i 7).
+
 (10) Wprowadzone są dwie liczby zmiennoprzecinkowe f i g (np. 2.314 i
 65.45). Zamień części całkowite w f i g i wyświetl nowe f i g (w przykładzie
 65.314 i 2.45).
+
 (11) Przetestuj, że operator ∗∗ jest potęgowaniem w pythonie. Wprowadzone są dwie liczby i oraz j i program sprawdza która z liczb jest większa
 i^j czy j^i i wyświetla odpowedź następująco (na przykładzie i = 3, j = 2):
 3 do 2 równe 9 jest większe od 2 do 3 równe 8.
+
 (12) Sprawdź jak za pomocą ∗∗ można liczyć pierwiastki kwadratowe z liczby i ogólnie dowolnego stopnia n.
 Oblicz √2, √3 trzeciego stopnia oraz √5 piatego stopnia Która liczba jest największa? Która najmniejsza?
 
@@ -70,31 +82,40 @@ for i in range(4,8): print(i)
 for i in range (1,20,3): print(i)
 W którymś z poleceń zamień też print(i) na print(i,end=” ”)
 Jaka jest różnica?
+
 (2) Napisz polecenie tak aby wyświetlić:
 - w jednym rzędzie liczby parzyste od 2 do 20
 - liczby nieparzyste od 19 do 1 (w dół)
 - kwadraty liczb od 1 do 10
+
 (3) Napisz program w którym użytkownik wprowadza dwie liczby n i m.
 Następnie mają być wyświetlone wszystkie liczby od n do m.
 Przykładowo wprowadzająć 2,5 ma wyjść: 2 3 4 5
 a wprowadzając 7,3 ma wyjść: 7 6 5 4 3
+
 (4) Napisz program zliczający sumę 1 + 2 + 3 + .. + 99 + 100
 Zmodyfikuj go tak aby użytkownik wprowadzał n i program oddawał sumę
 1 + 2 + .. + n
+
 (5) Stosując pętlę while znajdź (i wyświetl) najmniejsze n takie, że
 1 + 2 + .. + n jest większe od miliona.
+
 (6) Stosując pętlę while znajdź najmniejsze n spełniające:
 1 + 1/2 + 1/3 + .. + 1/n > 10
+
 (7) Stosując while napisz program w którym użytkownik wprowadza n i
 jest sprawdzane czy n jest kwadratem innej liczby naturalnej (sprawdzamy
 1*1, 2*2, itd.)
+
 (8) Napisz program w którym użytkownik wproawdza n po czym jest wyliczone i wyświetlone n! (n silnia) (przetestuj kilka wartości)
+
 (9) Za pomocą pętli (NIE STOSUJĄC potęgowania w pythonie) napisz program w którym użytkownik wprowadza n i m, po czym jest wyliczone i
 wyświetlone n do potęgi m. Przetestuj.
+
 (10) Napisz program który dla podanego n zlicza ilość dzielników n, czyli ilość k między 1 a n takich, że k dzieli n.
+
 (11) Użtykownik wprowadza liczbę n. Program wyświetla czy n jest liczbą
 pierwszą czy złożoną (wsk. trzeba sprawdzić czy dla jakiegoś k, 2 ¬ k ¬ n−1,
-
 k dzieli n). Przetestuj dla kilku wartości.
 (12) Stosując metodę z (11), wyświetl wszystkie liczby pierwsze w zakresie 1-200.
 
@@ -104,25 +125,34 @@ k dzieli n). Przetestuj dla kilku wartości.
 (1) Użytkownik wprowadza liczbę n. Program wyświetla czy n jest liczbą
 pierwszą czy złożoną (wsk. trzeba sprawdzić czy dla jakiegoś k, 2 ¬ k ¬ n−1,
 k dzieli n). Przetestuj dla kilku wartości.
+
 (2) Stosując metodę z (1), wyświetl wszystkie liczby pierwsze w zakresie
 1-200.
+
 (3) Za pomocą podwójnej pętli wyświetl kwadrat składający się z gwiazdek (*) o rozmiarze 10 na 10.
+
 (4) Zmodyfikuj (3) tak aby wyświetlić sam brzeg kwadratu. (W warunkach
 dla if można stosować operatory logiczne and oraz or).
+
 (5) Zmodyfikuj (3) aby wyświetlić brzeg kwadratu z jedną przekątną. Następnie ma być wyświetlony brzeg z obiema przekątnymi.
+
 (6) Zmodyfikuj (3) aby wyświetlić szachownicę gwiazdek (wsk. może być
 przydatna pewna parzystość).
+
 (7) Wyświetl tabliczkę mnożenia do 10. Zrób to etapami: najpierw sama
 zawartość tabliczki (100 liczb w 10 wierszach rozdzielonych spacjami). Tu
 może wyjść trochę krzywo wtedy zastanów się jak to poprawić. Na koniec
 dodaj wiersz liczb od 1 do 10 nad tabliczką i podobną kolumnę na lewo od
 niej aby uzyskać czytelną tabliczkę mnożenia.
+
 (8) Zmodyfikuj (3) tak aby wyświetlić po koleji 4 trójkąty prostokątne gwiazdek (pełne - z gwiazdkami w środku) z kątami prostymi w 4 rogach kwadratu
 z (3).
+
 (9) Zmodyfikuj tabliczkę możenia z (7) tak aby zamiast iloczynu liczb a
 (wiersz) i b (kolumna) był znak >, < lub = w zależności od tego czy a
 b > ba
 (w pythonie potęgowanie: **), < czy równe.
+
 (10) (Dodatkowe) Zmodyfikuj 1 tak aby utworzyć z gwiazdek (w przybliżeniu):
 - koło wypełnione gwiazdkami
 - okrąg, czyli brzeg poprzedniego (oczywiście przybliżony)
@@ -140,6 +170,7 @@ l2 i wyświetl obie listy. Co można zauważyć? (nie stworzyliśmy nowej listy
 tylko stworzyliśmy nowy odnośnik-reference do starej listy.)
 Skopiuj teraz l do l3 za pomocą: l3=l.copy()
 Zmień pierwszy element l3 i wyświetl listy l i l3. Co można zauważyć?
+
 (2) Dwie listy można połączyć (konkatenacja) za pomocą +, np. aby dodać element 6.4 do listy l stosujemy składnię:
 l = l + [6.4] ([6.4] jest listą 1-elementową)
 Pustą listę można zdefiniować przez:
@@ -147,21 +178,23 @@ l=[]
 Stwórz (za pomocą pętli) listę 10-elementową kwadratów: 1, 4, 9, .., 100
 Wyświetl listę (print). Następnie zmień znak elementów parzystych listy i
 wyświetl taką zmienioną listę.
+
 (3) Napisz program w którym użytkownik najpierw podaje ilość liczb n
 do wpisania. Następnie n liczb jest wpisywane do listy. Wreszcie program
 ma znaleźć i wyświetlić największą i najmniejszą z tych liczb.
+
 (4) Użytkownik wprowadza n. Stoworzona jest n-elementowa lista zawierająca:
 sin(1), sin(2), ..., sin(n).
 Wreszcie program znajduje i wyświetla największy i najmniejszy element
 tablicy. Przetestuj z coraz większymi n. Co się dzieje z elementami największym i najmniejszym?
+
 (5) Polecenie del służy do usuwania elementów listy, składnia:
 del lista[5] (usuwa 6-sty element listy lista)
 Stwórz listę składającą się z liczb od 100 do 150.
 Następnie usuń z listy elementy z liczbami 105, 110, 115,..,140, 145 i wyświetl końcową listę.
 Jeśli końcowa lista jest inna niż oczekujemy zastanów się dlaczego i zmodyfikuj program.
+
 (6) Stwórz 10-elementową listę l zawierającą różne liczby całkowite. Następnie (jak najprościej) utwórz listy (pamiętaj o kopiowaniu z l.copy() patrz
-1
-2
 (1)):
 l2, w której początkowy element listy jest przeniesiony na koniec.
 l3, końcowy element listy jest przeniesiony na początek.
@@ -169,6 +202,7 @@ l4, odwrócona lista l.
 l5, lista składająca się tylko z parzystych elementów l.
 l6, lista składająca się z nieparzystych elementów l o indeksach parzystych
 Sprawdź wyświetlając wszystkie te listy.
+
 (7) Liczba π znajduje się w module math, jako pi. Napisz program który wpisuje kolejne 50 cyfr rozwinięcia pi do listy. Wreszcie wyświetl tą listę.
 
 
