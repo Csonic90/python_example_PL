@@ -1,0 +1,5 @@
+fo = open("p.txt", "w")
+fo.write("tekst pliku\n")
+fo.write("tekst pliku 2\n")
+fo.write("tekst pliku 3 \n")
+fo.close()
